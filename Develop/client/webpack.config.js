@@ -22,6 +22,10 @@ module.exports = () => {
         template: './index.html',
         title: 'Webpack Plugin',
       }),
+      new InjectManifest(),
+      new WebpackPwaManifest({
+      //create a manifest.json:
+      })
     ],
 
     module: {
