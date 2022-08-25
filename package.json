@@ -2,6 +2,9 @@
   "name": "pwa-texteditor",
   "version": "1.0.0",
   "description": "Unit 19 challenge",
+  "engines": {
+    "node": "16.16"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
