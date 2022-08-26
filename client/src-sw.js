@@ -19,9 +19,9 @@ const pageCache = new CacheFirst({
   ],
 });
 //fill this in later
-offlineFallback({
+// offlineFallback({
 
-})
+// })
 
 warmStrategyCache({
   urls: ['/index.html', '/'],
