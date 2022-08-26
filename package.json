@@ -30,5 +30,8 @@
     "if-env": "^1.0.4",
     "nodemon": "^2.0.19",
     "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }
